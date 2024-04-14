@@ -25,7 +25,7 @@ pip install numpy scikit-surprise
 To run the extended SVD++ model with clustering, you can use the provided scripts. Here's an example of how to execute the model on your dataset:
 
 ```python
-from clustering_svdpp import ClusteringSVDpp
+from cluster_rec import CB_SVDpp
 
 # Load your dataset
 data = load_data('your_dataset.csv')
@@ -34,7 +34,7 @@ data = load_data('your_dataset.csv')
 ## SO CONVERT YOUR DATA INTO SURPRISE FORMAT
 
 # Initialize the model
-model = ClusteringSVDpp(num_clusters = 50, alpha = 0.15, n_epochs = 50, verbose True)
+model = CB_SVDpp(num_clusters = 50, alpha = 0.15, n_epochs = 50, verbose True)
 
 # Fit the model
 model.fit(trainset)
