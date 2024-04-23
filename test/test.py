@@ -2,7 +2,7 @@ import numpy as np
 from surprise import Dataset
 from surprise.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
-from cluster_rec import CB_SVDpp
+from src.cluster_rec import CB_SVDpp
 from time import time
 
 # Import and split data
