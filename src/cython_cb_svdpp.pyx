@@ -161,6 +161,9 @@ cdef class CB_SVDpp:
 
             if self.verbose:
                 print("Epoch completed.")
+                print(f"Took {round(t2-t2, 2)} seconds.")
+
+            
 
         if self.verbose:
             print("Training completed.")
