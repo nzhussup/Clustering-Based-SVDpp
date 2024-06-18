@@ -1,5 +1,11 @@
 # Clustering-Based Extended SVD++
 
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Cython](https://img.shields.io/badge/Cython-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![scikit-surprise](https://img.shields.io/badge/scikit--surprise-FF7043?style=for-the-badge&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
 ## Project Description
 This repository contains an implementation of an extended SVD++ model for collaborative filtering, which incorporates clustering techniques to enhance recommendation accuracy. The model builds upon the traditional SVD++ approach by integrating user and item clustering to capture latent group-level preferences. This extension aims to maintain scalability while improving the accuracy of predictions, inspired by advancements in factorized collaborative filtering.
 
